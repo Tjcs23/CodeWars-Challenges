@@ -19,8 +19,7 @@ def find_short(s):
 
 '''
 Looking through other solutions I realize I should have made use of the split method 
-and then iterate over the string of words returning the min of len(x)
-
+and then iterate over the string of words appending the mins to an array and returning the min of the array. 
 Ex.
 def find_short(s):
     results = []
